@@ -1,0 +1,111 @@
+body {
+  background-color: #edeef0;
+  text-align: center;
+}
+.product {
+  width: 500px;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px 3px #c7c7c7;
+  border-radius: 10px;
+}
+.product__image {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px 10px;
+}
+.product__image img {
+  width: 100%;
+  transition: 0.5s;
+}
+.product__image img:hover {
+  transform: scale(1.1);
+}
+.product__title {
+  font-size: xx-large;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.details__title {
+  text-align: start;
+  font-size: 20px;
+}
+.details__items {
+  list-style: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+.details__items li {
+  display: flex;
+}
+.details__items span {
+  width: 100%;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.details__items span:first-child {
+  text-align: end;
+  border-right: 2px solid rgb(85, 84, 84);
+}
+.details__items span:last-child {
+  text-align: start;
+}
+.details__items li:nth-child(odd) span:last-child,
+.details__items li:nth-child(even) span:first-child {
+  background-color: rgb(254, 248, 55);
+}
+.btn-buy {
+  padding: 10px;
+  margin: 20px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgb(2, 75, 2);
+  color: rgb(255, 255, 255);
+  border-radius: 5px 10px;
+  cursor: pointer;
+}
+span.product__price,
+span.product__discount {
+  position: absolute;
+  background-color: #ef18a3;
+  color: white;
+  padding: 5px 15px;
+  font-size: 30px;
+  border-radius: 50%;
+  font-weight: bold;
+  z-index: 2;
+  top: 15px;
+  left: 15px;
+  transition: 0.5s;
+}
+span.product__discount {
+  z-index: 2;
+  top: 15px;
+  right: 15px;
+  left: auto;
+  background-color: #f0081c;
+}
+span.product__price:hover {
+  transform: rotate(-10deg);
+}
+.product__details {
+  border-radius: 0 0 10px 10px;
+}
+.share-block {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  margin-right: 10px;
+}
+a.share-btn {
+  background: #222222;
+  text-transform: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}

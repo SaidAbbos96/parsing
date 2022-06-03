@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://mproweb.uz/#home",
+        "name": "Bosh Sahifa"
+    },
+    {
+        "url": "https://mproweb.uz/#about",
+        "name": "Biz Haqimizda"
+    },
+    {
+        "url": "https://mproweb.uz/#services",
+        "name": "Xizmatlarimiz"
+    },
+    {
+        "url": "https://mproweb.uz/#pricelist",
+        "name": "Saytlar Narxlari"
+    },
+    {
+        "url": "https://mproweb.uz/#projects",
+        "name": "Loyihalarimiz"
+    },
+    {
+        "url": "https://mproweb.uz/#team",
+        "name": "Bizning Jamoa"
+    },
+    {
+        "url": "https://mproweb.uz/#contact",
+        "name": "Buyurtma Berish"
+    }
+]
